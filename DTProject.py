@@ -34,12 +34,16 @@ def ask(query):
         prompt(query)
         while True:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bb828391791823411c4a0935f668783aa9e9dd61
             try:
                 x=int(input())
                 ask(tMap[query][x])
                 break
             except:
                 print("Enter Valid options!!!")
+<<<<<<< HEAD
 =======
             print("1 for YES \n0 for NO")
             x=int(input())
@@ -49,6 +53,8 @@ def ask(query):
                 print("Enter a valid option")
         ask(tMap[query][x])
 >>>>>>> 91942f077726528b6e1fe9ee371f93fdfad0a84b
+=======
+>>>>>>> bb828391791823411c4a0935f668783aa9e9dd61
 def main():
     ask("q")
 
