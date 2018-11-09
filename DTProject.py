@@ -1,5 +1,4 @@
 import os
-import traceback
 fileMap={\
 "q"         : "q_mainA.txt",\
 "q0"        : "q_mainB.txt",\
@@ -55,7 +54,10 @@ def prompt(query):
         print(i[:-1])
 def ask(query):
     global tMap
+<<<<<<< HEAD
     #print(query)
+=======
+>>>>>>> f7f408c9683f0a62ade4f7f80c7a03ba5da8c207
     os.system("clear")
     if query[0]=="a":
         print("########## Result of your diagnosis ############")
