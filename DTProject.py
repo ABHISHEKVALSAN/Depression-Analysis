@@ -11,10 +11,13 @@ fileMap={\
 "q10000"    : "q_2year.txt",\
 "q100000"   : "q_2week.txt",\
 "q100001"   : "q_PDDSx.txt",\
+<<<<<<< HEAD
 "q10001"    : "q_2year.txt",\
 "q100010"   : "q_2week.txt",\
 "q1000100"  : "q_SDD.txt",\
 "q10001000" : "q_BRDD.txt",\
+=======
+>>>>>>> 484681e662899eb57a5f4e537ddd2936c218d521
 "a"         : "a_main.txt",\
 "a11"       : "a_substance.txt",\
 "a101"      : "a_medical.txt",\
@@ -23,11 +26,14 @@ fileMap={\
 "a1000010"  : "a_UD.txt",\
 "a1000001"  : "a_ISx.txt",\
 "a1000000"  : "a_UD.txt",\
+<<<<<<< HEAD
 "a100011"   : "a_PDDwMDD.txt",\
 "a1000101"  : "a_MDD.txt",\
 "a10001001" : "a_SDD.txt",\
 "a100010001": "a_BRDD.txt",\
 "a100010000": "a_UD.txt",\
+=======
+>>>>>>> 484681e662899eb57a5f4e537ddd2936c218d521
 "aend"      : "aend.txt",\
 }
 tMap = {\
@@ -37,6 +43,7 @@ tMap = {\
 "q10"       : ["q100","a101"],\
 "q100"      : ["q1000","q1001"],\
 "q1001"     : ["q1000","a10011"],\
+<<<<<<< HEAD
 "q1000"     : ["q10000","q10001"],\
 "q10000"    : ["q100000","q100001"],\
 "q100000"   : ["a1000000","a1000001"],\
@@ -48,6 +55,15 @@ tMap = {\
 }
 def prompt(query):
     #print(query)
+=======
+"q1000"     : ["q10000","aend"],\
+"q10000"    : ["q100000","q100001"],\
+"q100000"   : ["a1000000","a1000001"],\
+"q100001"   : ["a1000010","a1000011"],\
+}
+def prompt(query):
+    print(query)
+>>>>>>> 484681e662899eb57a5f4e537ddd2936c218d521
     global fileMap
     filename=fileMap[query]
     f=open(filename,"r")
@@ -55,7 +71,11 @@ def prompt(query):
         print(i[:-1])
 def ask(query):
     global tMap
+<<<<<<< HEAD
     #print(query)
+=======
+    print(query)
+>>>>>>> 484681e662899eb57a5f4e537ddd2936c218d521
     os.system("clear")
     if query[0]=="a":
         print("########## Result of your diagnosis ############")
