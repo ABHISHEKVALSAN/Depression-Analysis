@@ -11,7 +11,6 @@ fileMap={\
 "q10000"    : "q_2year.txt",\
 "q100000"   : "q_2week.txt",\
 "q100001"   : "q_PDDSx.txt",\
-<<<<<<< HEAD
 "q10001"    : "q_2year.txt",\
 "q100010"   : "q_2week.txt",\
 "q1000100"  : "q_SDD.txt",\
